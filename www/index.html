@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Keywords" 		content="Liberty Leather Stores" />
+<meta name="Description" 	content="Liberty Leather Stores" />
+<!--Favicon shortcut link-->
+<link type="image/x-icon"  rel="shortcut icon" href="images/logo.png" />
+<link type="image/x-icon"  rel="icon"		   href="images/logo.png" />
+<!--Declare page as mobile friendly --> 
+<meta name="viewport" content="user-scalable=yes, initial-scale=1.0, maximum-scale=1.0"/>
+<!-- Declare page as iDevice WebApp friendly -->
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<!-- iDevice WebApp Splash Screen, Regular Icon, iPhone, iPad, iPod Retina Icons -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/splash/splash-icon.png"> 
+<link rel="apple-touch-startup-image" href="images/splash/splash-screen.png" media="screen and (max-device-width: 320px)" /> 
+<link rel="apple-touch-startup-image" href="images/splash/splash-screen@2x.png" media="(max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)" /> 
+<link rel="apple-touch-startup-image" href="images/splash/splash-screen@3x.png" sizes="640x1096">
+
+<!-- Page Title -->
+<title>LIBERTY LEATHER STORES</title>
+
+<!-- Stylesheet Load -->
+<link href="styles/style.css"				rel="stylesheet" 	type="text/css">
+<link href="styles/framework-style.css" 	rel="stylesheet" 	type="text/css">
+<link href="styles/framework.css" 			rel="stylesheet" 	type="text/css">
+<link href="styles/coach.css"				rel="stylesheet"	type="text/css">
+<link href="styles/icons.css"				rel="stylesheet" 	type="text/css">
+<link href="styles/retina.css" 				rel="stylesheet" 	type="text/css" 	media="only screen and (-webkit-min-device-pixel-ratio: 2)" />
+
+<!--Page Scripts Load -->
+<script src="scripts/jquery.min.js"		type="text/javascript"></script>		
+<script src="scripts/jquery-ui-min.js"  type="text/javascript"></script>
+<script src="scripts/subscribe.js"		type="text/javascript"></script>
+<script src="scripts/contact.js"		type="text/javascript"></script>
+<script src="scripts/swipe.js"			type="text/javascript"></script>
+<script src="scripts/swipebox.js"		type="text/javascript"></script>
+<script src="scripts/colorbox.js"		type="text/javascript"></script>
+<script src="scripts/retina.js"			type="text/javascript"></script>
+<script src="scripts/custom.js"			type="text/javascript"></script>
+<script src="scripts/framework.js"		type="text/javascript"></script>
+</head>
+
+<body>
+
+<div id="preloader">
+	<div id="status">
+    	<p class="center-text">
+			<em>Loading the content...</em>
+            <em>Loading depends on your connection speed!</em>
+        </p>
+    </div>
+</div>
+
+
+<div class="page-coach">
+	<div class="portrait-coach">
+        <span  style="top:-10px; left:100px;" class="coach-arrow arrow10">
+            <p style="padding-top:50px; padding-left:15px;">Tap to open or close sidebar!</p>
+        </span>
+        
+        <span  style="top:210px; left:40px;" class="coach-arrow arrow11">
+            <p style="padding-top:10px; padding-left:40px;">Navgation icons!</p>
+        </span>
+        
+        <span  style="top:120px; left:-25px;" class="coach-arrow arrow15">
+            <p style="padding-top:70px; padding-left:40px;">Selected item!</p>
+        </span>
+        
+        <span  style="top:310px; left:25px;" class="coach-arrow arrow9">
+            <p style="padding-top:15px; padding-left:100px;">The sidebar scrolls if needed!</p>
+        </span>
+        
+    </div>    
+    <div class="landscape-coach">        
+        <span style="left:47%; top:15%;" class="coach-arrow arrow12">
+            <p style="text-align:center; padding-top:100px; margin-left:-160px;">
+            	This page has a lot of responsive features!<br>
+                That means they expand when the device is in landscape!<br>
+				Flip your device back in portrait mode to continue the tutorial!<br>      
+            </p>
+        </span>
+    </div>
+</div>
+
+<div id="modal-hider"></div>
+<div id="modal-body">
+    <p class="modal-logo">SUBSCRIBE FOR UPDATES</p>
+	<p class="modal-logo-heading">
+    	Subscribe to the latest news and updates!<br/>
+    </p>
+    <div class="decoration"></div>
+    <div class="modalForm" id="modalForm">
+      <form id="contact">
+          <fieldset>
+              <label for="contactName" id="name_label">NAME:</label>
+              <p id="left_label_name">glad to meet you!</p>
+              <input type="text" name="contactName" id="contactName" size="30" value="" class="text-input" />
+              <span class="error" id="nameError">Please enter your name !</span>
+              
+              <label for="contactEmail" id="email_label">EMAIL:</label>
+              <p id="left_label_mail">we never spam!</p>
+              <input type="text" name="contactEmail" id="contactEmail" size="30" value="" class="text-input" />
+              <span class="error" id="emailError">Please enter your email address !</span> <span class="error" id="emailError2">Please enter a valid email address !</span>
+              
+              <textarea  name="contactMessage" id="contactMessage" class="text-input">Message Sent From Modal Pop-Up</textarea>
+              <span class="error" id="messageError">Please enter message !</span>
+              
+              <p class="contact-button-house">
+                <input type="submit" name="submitMessage" class="contactButton button black" id="contactSubmitBtn" value="SUBSCRIBE"/>
+              </p>            
+              <p class="contact-social-set">
+                    <em>OUR SOCIAL SET</em>
+                    <a href="#"><img src="images/modal_social/facebook@2x.png" width="16" alt="img"></a>
+                    <a href="#"><img src="images/modal_social/twitter@2x.png"  width="16"	alt="img"></a>
+                    <a href="#"><img src="images/modal_social/dribbble@2x.png" width="16" alt="img"></a>
+                    <a href="#"><img src="images/modal_social/rss@2x.png" 	 width="16"	alt="img"></a>
+              </p>
+          </fieldset>
+      </form>
+  </div>
+  <div class="decoration"></div>
+  <a href="#" class="close-modal">Close</a>
+  <em class="close-modal-text">Addresses will remain confidential!</em>
+</div>
+
+<div class="webapp">
+	<div class="container no-bottom shadow">
+    	<img class="column-icon" src="images/splash/splash-icon.png" alt="img">
+    	<h5 class="uppercase">BOOKMARK AS WEBAPP</h5>
+        <a href="#" class="close-webapp"></a>
+        <p class="no-bottom">Browse this page in fullscreen by adding this item to your iDevice’s homescreen! </p> 
+    </div>
+</div>
+
+<div class="sidebar">
+	<div class="sidebar-scroll">
+    	<!--<a href="#" class="nav-coach">
+        	How To
+        </a>-->
+		<a href="index.html" class="nav-home-active">
+        	Home
+        </a>
+        <a href="about.html" class="nav-about">
+        	About Us
+        </a>
+       <!-- <a href="folio.html" class="nav-gallery">
+        	Folio
+        </a>
+        <!--<a href="video.html" class="nav-video">
+        	Video
+        </a>-->
+        <!--<a href="blog.html" class="nav-blog">
+        	Blog
+        </a>-->
+		<a href="camera.html" class="nav-camera">
+        	Camera
+        </a>
+		
+        <a href="tel:+91-9841928927" class="nav-call">
+        	Call Us
+        </a>
+        <a href="sms:+91-9841928927" class="nav-text">
+        	SMS
+        </a>
+        <a href="contact.html" class="nav-mail">
+        	Contact Us
+        </a>
+		 <a href="https://www.google.co.in/maps/place/Liberty+Leather+Stores/@13.0831116,80.2684953,15z/data=!4m5!3m4!1s0x0:0x7b2bba7a02850369!8m2!3d13.0831116!4d80.2684953" class="nav-marker" target="_blank">
+        	Locate Us
+        </a>
+		
+		 <a target="_blank" href="https://web.whatsapp.com/send?phone=919666669185&amp;text=Hi, RVA&amp;text=" class="img-icon-a nofocus">   
+            <img class="img-icon ccw-analytics lazyloading" id="style-3" data-ccw="style-3" style="height: 55px;" src="https://www.rahasyavedicastrology.com/wp-content/plugins/click-to-chat-for-whatsapp/./assets/img/whatsapp-logo.png" alt="WhatsApp chat" data-was-processed="true">
+        </a>
+       	
+    </div>
+</div>
+
+<div class="content">
+
+	<div class="header container">
+    	<a href="#" class="show-nav"></a>
+        <a href="#" class="hide-nav"></a>
+        <img class="replace-2x" src="images/logo.png" width="250" alt="img">
+    </div>
+    <div class="decoration"></div>
+
+    <div class="container slider-wrapper">
+       <div class="slider-container">
+           <div id="slider" class="swipe">
+               <ul>
+                   <li style='display:block'>
+                       <div class="slider-image">
+                           <img class="swipe-img" src="images/banner1.jpg" alt="img">
+                         <!--  <p class="swipe-text">Swipe me from your mobile!</p>-->
+                       </div>
+                   </li>
+                   <li style='display:none'>
+                       <div>
+                           <img class="swipe-img" src="images/banner2.jpg" alt="img">
+                         <!--  <p class="swipe-text">Come on! Swipe me!</p>-->
+                       </div>
+                   </li>
+                   <li style='display:none'>
+                       <div>
+                           <img class="swipe-img" src="images/banner3.jpg" alt="img">
+                          <!-- <p class="swipe-text">Test me on your phone!</p>-->
+                       </div>
+                   </li>
+                   
+               </ul>
+           </div>
+            
+           <a href="#" class="next-but-swipe"><img width="30" src="images/slider/prev.png" alt="img"></a>
+           <a href="#" class="prev-but-swipe"><img width="30" src="images/slider/next.png" alt="img"></a>              
+       	</div>
+   	</div>
+   
+   	<div class="decoration"></div>
+   
+   	<div class="container no-bottom shadow">
+   		<h4 class="heading-icon uppercase">WELCOME TO <b>LIBERTY LEATHER STORES</b></h4>
+		<img src="images/promo.png" width="250"><br>
+        <p align="justify">
+        	<font color="#db780e"><b>LIBERTY LEATHER STORES</b></font> established in 1991, has quickly grown into a large professional supplier of metal fittings & other fashion accessories to shoes, Bags & Garments etc. “<font color="#db780e"><b>LIBERTY LEATHER STORES</b></font>” caters to the input needs of the Domestic & Export Industry and has specialized in Eyelets, Buckles, rivet buttons and Ornaments.
+        </p>
+   	</div>
+    
+    <div class="decoration"></div>
+ 
+    
+	<div class="container big-left-icon shadow">
+    	<!--<img class="column-icon replace-2x" src="images/technology.jpg" width="200" alt="img">-->
+    	<h4 class="uppercase"><b>TECHOLOGY OF EYELETS</b>
+<font color="#db780e"><b>LIBERTY</b></font> LEATHER STORE</h4>
+        <p class="no-bottom">There are Three Basic Types of Settings… Roll (or Coil), Scored, or Flared. The most common is the roll, Which provides a Smooth, Rounded, Uniform surface. A scored setting divides, The end of the Barrel into equal segments to provide extra grip Strength in soft materials. A Flared setting is Commonly used in PC Boards and Provides a appearance often used for soldering.</p>
+
+<img class="column-icon replace-2x" src="images/technology.jpg" width="300" alt="img">
+
+    </div>
+    
+	<!--<div class="container big-left-icon shadow">
+    	<img class="column-icon replace-2x" src="images/icons-large/icon4.png" width="80"  alt="img">
+    	<h4 class="uppercase">Our Sample Test Reports</h4>
+        <p class="no-bottom">Packed for everyone to understand and everyone to use!</p> 
+	   <center>
+	   <img class="column-icon replace-2x" src="images/report1.jpg" width="230"  alt="img">
+	    <img class="column-icon replace-2x" src="images/report2.jpg" width="230"  alt="img">
+		 <img class="column-icon replace-2x" src="images/report3.jpg" width="230"  alt="img">
+		  <img class="column-icon replace-2x" src="images/report4.jpg" width="230"  alt="img">
+		    <img class="column-icon replace-2x" src="images/report5.jpg" width="230"  alt="img">
+		  </center>
+    </div>-->
+   
+ 	<div class="container big-left-icon shadow">
+    	<!--<img class="column-icon replace-2x" src="images/icons-large/icon1.png" width="80" alt="img">-->
+    <h4 class="uppercase">Social Connect</h4>
+       <!-- <p class="no-bottom">Epsilon V2 uses 99% of the features found on dekstop pages!</p> -->
+		<img class="column-icon replace-2x" src="images/fb.png" width="30" alt="img"><img class="column-icon replace-2x" src="images/Twitter.png" width="30" alt="img">
+<img class="column-icon replace-2x" src="images/googleplus.png" width="30" alt="img">   
+   </div>  
+	
+    <div class="decoration"></div>
+   
+	<div class="footer container no-bottom">
+    	<p class="center-text half-bottom">© Copyright 2017 Liberty Leather Stores. All rights reserved!<br>
+		Design & Development by <a href="http://itcoordinates.com/" target="_blank">ITCoordinates</a>
+		
+		</p>
+		
+    	<p class="center-text">
+        <!--	<a class="subscribe" href="#">Subscribe</a>-->
+           <!-- <em>|</em>-->
+        	<a class="go-up" href="#">Back to top</a>
+        </p>
+		
+    </div>
+
+</div>
+
+
+</body>
+</html>
+
+
+
